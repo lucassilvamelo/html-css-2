@@ -71,14 +71,31 @@ section.normal{
 section.imagem{
     background-color: #2e2c2c;
     color: #ffffff;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.479);
+    
 
 }
 
 section.imagem p{
     background-color: rgba(0, 0, 0, 0.336);
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
 }
 
+section#img01{
+    background: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
 footer{
     background-color: #000000;
     color: #ffffff;
