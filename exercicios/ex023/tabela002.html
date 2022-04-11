@@ -13,6 +13,7 @@
 
         table{
             width: 500px;
+            position: relative;
         }
 
         td, th{
@@ -37,7 +38,12 @@
 
         thead{
             color: white;
-            background-color: rgba(0, 0, 0, 0.521);
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color:  rgba(0, 0, 0, 0.521);
         }
 
         tbody tr:nth-child(2n){
